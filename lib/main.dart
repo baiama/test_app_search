@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:test_app_search/api/search_client.dart';
 import 'package:test_app_search/api/search_repository.dart';
-import 'package:test_app_search/bloc/search_bloc.dart';
 import 'package:test_app_search/styles/custom_themes.dart';
+import 'package:test_app_search/views/screens/home/bloc/search_bloc.dart';
 import 'package:test_app_search/views/screens/home/home_screen.dart';
 
 void main() {

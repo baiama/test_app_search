@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:test_app_search/bloc/search_bloc.dart';
-import 'package:test_app_search/bloc/search_event.dart';
-import 'package:test_app_search/bloc/search_state.dart';
 import 'package:test_app_search/models/search_result_item.dart';
 import 'package:test_app_search/styles/custom_colors.dart';
 import 'package:test_app_search/styles/text_styles.dart';
 import 'package:test_app_search/views/components/components.dart';
+import 'package:test_app_search/views/screens/home/bloc/search_bloc.dart';
+import 'package:test_app_search/views/screens/home/bloc/search_event.dart';
+import 'package:test_app_search/views/screens/home/bloc/search_state.dart';
 
 class ResultScreen extends StatefulWidget {
   final String query;

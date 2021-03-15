@@ -3,9 +3,9 @@ import 'dart:async';
 import 'package:meta/meta.dart';
 import 'package:bloc/bloc.dart';
 import 'package:test_app_search/api/search_repository.dart';
-import 'package:test_app_search/bloc/search_event.dart';
-import 'package:test_app_search/bloc/search_state.dart';
 import 'package:test_app_search/models/search_result_error.dart';
+import 'package:test_app_search/views/screens/home/bloc/search_event.dart';
+import 'package:test_app_search/views/screens/home/bloc/search_state.dart';
 
 class SearchBloc extends Bloc<SearchEvent, SearchState> {
   final SearchRepository searchRepository;
